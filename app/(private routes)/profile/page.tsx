@@ -13,7 +13,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: `User: ${user.username}`,
       description: `Here is a page ${user.username} with email ${user.email}`,
-      url: `https://09-auth-three-snowy.vercel.app/profile`,
+      url: `https://09-auth-hazel-ten.vercel.app/profile`,
       images: [
         {
           url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
